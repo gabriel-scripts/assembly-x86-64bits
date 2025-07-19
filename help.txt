@@ -1,0 +1,3 @@
+syscall: https://filippo.io/linux-syscall-table/
+
+registers: https://web.stanford.edu/class/cs107/guide/x86-64.html
