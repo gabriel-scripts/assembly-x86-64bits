@@ -1,8 +1,12 @@
-; in Assembly inputs is memory location with a Ascii number, so we need to convert to a real value
+; in Assembly inputs is a memory location with a ASCII number, so we need to convert to a real value to make operations
 
-; moving data: mov (copy bit a bit), movzx (fild high bits with 0), movsx (fild high bits wuth sign)
+; MOVING DATA: 
 
-; SYSCALL REGISTERS
+; mov (copy bit a bit)
+; movzx (fild high bits with 0)
+; movsx (fild high bits wuth sign)
+
+; SYSCALL REGISTERS]:
 
 ; mov al,  [mem8]    ; 8 bits em AL
 ; mov ax,  [mem16]   ; 16 bits em AX
@@ -85,7 +89,6 @@ atoi_and_add:
   sub ebx, '0' 
 
   ; Make the adition on two numbers
-
   add eax, ebx
   ret
 
