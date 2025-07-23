@@ -5,12 +5,12 @@ section .bss
     name resd 1              ;  reserva 1 double word (4 bytes)     
 
 section .data 
-    idade db 25                                      ; constante de 1 byte (db = define byte)
+    idade db 25                                      ; constant 1 byte (db = define byte)
     
-    string_valor_1 db "Soma, primeiro valor: ", 0    ; string com terminador nulo
+    string_valor_1 db "First value: ", 0    ; string com terminador nulo
     string_valor_1_length equ $ - string_valor_1
     
-    string_valor_2 db "Segundo valor: ", 0  
+    string_valor_2 db "Second value: ", 0  
     string_valor_2_length equ $ - string_valor_2
 
     a db 255                  ; define byte (1 bytes)

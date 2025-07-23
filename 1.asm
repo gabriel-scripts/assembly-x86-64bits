@@ -1,8 +1,8 @@
 section .bss
-    ; variáveis
+    ; variable
 
 section .data 
-    ; constantes
+    ; constant
     
     hello db "hello world", 10 
     helloLen equ $ - hello   
